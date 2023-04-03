@@ -1,0 +1,19 @@
+Package: flexspace
+Title: Flexible and Spatially Based Power Analysis for Conservation and Ecology
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Jordan", "Heiman", "L", "jordan.heiman@umontana.edu", 
+    role = c("aut", "cre")),
+    person("Martha", "Ellis", role = "aut"))
+Description: Allows for spatially-explicit, simulation-based power analysis of 
+  wildlife occupancy monitoring programs and their ability to detect trends in a
+  population's abundance. These power analyses provide a range of parameter  
+  settings that can be adjusted to evaluate a variety of monitoring efforts.  
+  This package is built upon the previous 'rSPACE' package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
